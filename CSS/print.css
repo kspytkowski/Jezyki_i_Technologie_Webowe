@@ -1,0 +1,106 @@
+body {
+	font-family: Verdana, sans-serif;
+   background-color: brown;
+}
+
+h1 {
+	color: black;
+	letter-spacing: 10px;
+}
+
+h2 {
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
+p {
+	text-indent: 40px;
+}
+
+table {
+   text-align: center;
+	background: white;
+   border-collapse: collapse;	
+   border-color: black;
+}
+
+td {
+	border: 1px dotted black;
+}
+
+colgroup#gr1 {
+	background-color: white;
+}
+
+colgroup#gr3 {
+	background-color: white;
+}
+
+thead {
+   font-family: arial;
+	text-transform: uppercase;
+}
+
+tbody {
+   font-family: helvetica;
+}
+
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol { 
+	list-style-type: lower-greek;
+}
+
+img#ob1 {
+   display: none;
+}
+
+img#ob2 {
+   display: none;
+}
+
+p:first-letter {
+   color: black;
+   font-size: 30px;
+}
+
+div#kontener {
+   background-color: white;
+   width: auto;
+   height: 100%;
+}
+
+div#pozostale_cwiczenia {
+	display: none;
+}
+
+div#tresc {
+   width:auto;
+	background-color: white;
+   text-align: justify;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div#tresc h1 {
+	background-color: black;
+	width: 100%;
+}
+
+a#validator {
+   display: none;
+}
+
+a#validator2{
+   display: none;
+}
