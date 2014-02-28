@@ -1,0 +1,142 @@
+body {
+	font-family: Verdana, sans-serif;
+   background-color: Maroon;
+}
+
+h1 {
+	color: green;
+}
+
+h1#maintitle{
+	background-color: blue;
+   text-align: center;
+   letter-spacing: 0px;
+   margin: 0 0 0 0;
+}
+
+h2 {
+	color: red;
+}
+
+h3 {
+	color: blue;
+}
+
+p {
+	text-indent: 40px;
+}
+
+table {
+   text-align: center;
+	background: yellow;
+   border: 5px solid green;
+}
+
+colgroup#gr1 {
+	background-color: orange;
+}
+
+colgroup#gr3 {
+	background-color: gray;
+}
+
+thead {
+   font-family: arial;
+	text-transform: uppercase;
+}
+
+td {
+   border: 1px dotted black;
+}
+
+tbody {
+   font-family: helvetica;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol { 
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: lower-greek;
+}
+
+img#ob1 {
+	float: left;
+}
+
+img#ob2 {
+	float: right;
+}
+
+p:first-letter {
+   color: blue;
+   font-size: 30px;
+}
+
+div#kontener {
+   position: relative;
+   background-color: brown;
+   max-width: 1080px;   
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height: 100%;
+}
+
+div#tresc {
+   margin-left: 220px;
+	background-color: Lime;
+   text-align: justify;
+   padding: 5px;
+   position: relative;
+   height: 100%;
+   min-height: 370px;
+
+}
+
+div#tresc ul,li {
+   list-style: none;
+}
+
+div#tresc h1,h2,h3,h4,h5,ul,li {
+   text-align: center;
+}
+
+div#pozostale_cwiczenia {
+	background-color: orange;
+   width: 220px;
+   float: left;
+   height: 100%;
+	text-align: center;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+div#pozostale_cwiczenia h1 {
+   padding-top: 5px;
+}
+
+ul {
+	list-style: none;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+div#pozostale_cwiczenia li {
+	background-color: yellow;
+   border-style: solid;
+}
+
+div#pozostale_cwiczenia li:hover{
+   background-color: blue;
+}
+
+div#pozostale_cwiczenia a:hover{
+	cursor: default;
+}
